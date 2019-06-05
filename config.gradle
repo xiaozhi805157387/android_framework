@@ -1,0 +1,22 @@
+ext {
+    //android 开发配置
+    android = [
+            compileSdkVersion : 28,
+            applicationId : "com.cxy.demo_meng",
+            minSdkVersion : 21,
+            targetSdkVersion : 28,
+            versionCode: 1,
+            versionName: "1.0",
+    ]
+
+    //版本配置
+    version = [
+            "support-version" : "28.0.0",
+            "junit-version" : "4.12",
+    ]
+
+    support = [
+            "" : "com.android.support:appcompat-v7:"
+    ]
+
+}
